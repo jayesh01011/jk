@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(17,17,17);
+    
+    
+    }
+    body{
+    position:absolute;
+    top:40%;
+    left:40%;
+    }
+    input,button{
+        font-family: sans-serif;
+        padding: 20px 20px;
+        border:3px solid white;
+        color: white;
+        font-size:28px;
+        text-indent: 15px;
+        border-radius: 10px;
+        outline: none;
+        background: none;
+        
+        border-width: 1px;
+        letter-spacing: 3px;
+        transition: .3s;
+        }
+    button:hover,input:focus{
+    padding: 25px 25px;
+    box-shadow: 0 0 45px#16E0BD,
+               0 0 45px #16E0BD;
+    border: 1px solid #16E0BD;
+    }
+    input::placeholder{
+    
+        color:grey;
+    }
